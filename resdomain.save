@@ -1,0 +1,25 @@
+#!/bin/bash 
+
+if [ $1 == " " ];
+then 
+echo "----------------Resodomain-----------------"
+echo "Exemplo : resodomain www.gmail.com"
+
+fi
+
+wget $1
+egrep "href=|src" index.html | cut -d "=" -f 2 | cut -d "/" -f3 | grep "\." | cut -d '"' -f 1 | egrep -v "\(" | sort -u  > listdomains
+
+rm index.html
+dir=pwd
+
+for ip in $(cat listdomains)
+do
+
+nslookup $ip > resolvIPS | cut -d " " -f 1,2 teste | grep -v "Non" | sed 's/name//' | sed 's/canonical//' | grep -v "8.8.8.8" | grep -v "Name:" 
+
+done
+
+echo  "---------------------------Resodmain---------------------------"
+echo  "------------------    $1     ------------------"
+echo $domains

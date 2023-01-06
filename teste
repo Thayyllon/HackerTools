@@ -1,0 +1,111 @@
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+about.linkedin.com	canonical name = afd-microsites.linkedin.com.
+afd-microsites.linkedin.com	canonical name = mix.linkedin.com.
+mix.linkedin.com	canonical name = any-na-lx.mix.linkedin.com.
+Name:	any-na-lx.mix.linkedin.com
+Address: 108.174.10.24
+Name:	any-na-lx.mix.linkedin.com
+Address: 2620:109:c002::6cae:a18
+
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+blog.linkedin.com	canonical name = afd-microsites.linkedin.com.
+afd-microsites.linkedin.com	canonical name = mix.linkedin.com.
+mix.linkedin.com	canonical name = any-na-lx.mix.linkedin.com.
+Name:	any-na-lx.mix.linkedin.com
+Address: 108.174.10.24
+Name:	any-na-lx.mix.linkedin.com
+Address: 2620:109:c002::6cae:a18
+
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+business.linkedin.com	canonical name = afd-microsites.linkedin.com.
+afd-microsites.linkedin.com	canonical name = mix.linkedin.com.
+mix.linkedin.com	canonical name = any-na-lx.mix.linkedin.com.
+Name:	any-na-lx.mix.linkedin.com
+Address: 108.174.10.24
+Name:	any-na-lx.mix.linkedin.com
+Address: 2620:109:c002::6cae:a18
+
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+developer.linkedin.com	canonical name = mix.linkedin.com.
+mix.linkedin.com	canonical name = any-na-lx.mix.linkedin.com.
+Name:	any-na-lx.mix.linkedin.com
+Address: 108.174.10.24
+Name:	any-na-lx.mix.linkedin.com
+Address: 2620:109:c002::6cae:a18
+
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+learning.linkedin.com	canonical name = afd-microsites.linkedin.com.
+afd-microsites.linkedin.com	canonical name = mix.linkedin.com.
+mix.linkedin.com	canonical name = any-na-lx.mix.linkedin.com.
+Name:	any-na-lx.mix.linkedin.com
+Address: 108.174.10.24
+Name:	any-na-lx.mix.linkedin.com
+Address: 2620:109:c002::6cae:a18
+
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+mobile.linkedin.com	canonical name = mix.linkedin.com.
+mix.linkedin.com	canonical name = any-na-lx.mix.linkedin.com.
+Name:	any-na-lx.mix.linkedin.com
+Address: 108.174.10.24
+Name:	any-na-lx.mix.linkedin.com
+Address: 2620:109:c002::6cae:a18
+
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+press.linkedin.com	canonical name = afd-microsites.linkedin.com.
+afd-microsites.linkedin.com	canonical name = mix.linkedin.com.
+mix.linkedin.com	canonical name = any-na-lx.mix.linkedin.com.
+Name:	any-na-lx.mix.linkedin.com
+Address: 108.174.10.24
+Name:	any-na-lx.mix.linkedin.com
+Address: 2620:109:c002::6cae:a18
+
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+static.licdn.com	canonical name = 2-01-2c3e-003d.cdx.cedexis.net.
+2-01-2c3e-003d.cdx.cedexis.net	canonical name = li-prod-static-gphycdgebdapbzgp.z01.azurefd.net.
+li-prod-static-gphycdgebdapbzgp.z01.azurefd.net	canonical name = star-azurefd-prod.trafficmanager.net.
+star-azurefd-prod.trafficmanager.net	canonical name = shed.dual-low.part-0006.t-0009.fdv2-t-msedge.net.
+shed.dual-low.part-0006.t-0009.fdv2-t-msedge.net	canonical name = part-0006.t-0009.fdv2-t-msedge.net.
+Name:	part-0006.t-0009.fdv2-t-msedge.net
+Address: 13.107.237.34
+Name:	part-0006.t-0009.fdv2-t-msedge.net
+Address: 13.107.238.34
+Name:	part-0006.t-0009.fdv2-t-msedge.net
+Address: 2620:1ec:4e:1::34
+Name:	part-0006.t-0009.fdv2-t-msedge.net
+Address: 2620:1ec:4f:1::34
+
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+www.linkedin.com	canonical name = www-linkedin-com.l-0005.l-msedge.net.
+www-linkedin-com.l-0005.l-msedge.net	canonical name = l-0005.l-msedge.net.
+Name:	l-0005.l-msedge.net
+Address: 13.107.42.14
+Name:	l-0005.l-msedge.net
+Address: 2620:1ec:21::14
+

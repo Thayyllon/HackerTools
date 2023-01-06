@@ -1,0 +1,49 @@
+#!/bin/bash
+#Autor: Thaylon Roberto Muniz da Silva
+#Data: 06/01/2023, 17:22
+#Local: Brasilia-DF, Brazil
+
+#Limpar a tela
+clear
+
+#localizando banner
+updatedb
+banner=`locate R3S0LD0MA1N`
+bannerLoad=`locate R3S0LD0MA1NLoading`
+if [ -z $1 ];
+then
+echo "---------------------RESDOMAIN----------------------"
+echo "Exemplo : resodomain www.gmail.com"
+echo " "
+cat $banner
+exit
+
+else
+
+DomainName=$1
+
+cut -d ":" -f 2 $DomainName 2>/dev/null  | sed 's/.\///' | sed 's/.$//' 
+
+cat $bannerLoad
+
+wget -O $DomainName.temp $DomainName 2> /dev/null
+egrep "href=|src" $1.temp | cut -d "=" -f 2 | cut -d "/" -f3 | grep "\." | cut -d '"' -f 1 | egrep -v "\(" | sort -u  > listdomains
+
+for ip in $(cat listdomains)
+do
+
+nslookup $ip >> domains.txt 
+
+done
+
+echo  "--------------------------------------RESDOMAIN-----------------------------------"
+echo  "-------------------------------      $1     -------------------------------"
+echo " "
+
+cut -d " " -f 1,2 domains.txt | grep -v "Non" | sed 's/name//' | sed 's/canonical//' | grep -v "8.8.8.8" 
+
+sudo rm domains.txt
+sudo rm $1.temp
+sudo rm listdomains
+
+fi

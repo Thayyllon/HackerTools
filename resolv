@@ -1,0 +1,11 @@
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+www.linkedin.com	canonical name = www-linkedin-com.l-0005.l-msedge.net.
+www-linkedin-com.l-0005.l-msedge.net	canonical name = l-0005.l-msedge.net.
+Name:	l-0005.l-msedge.net
+Address: 13.107.42.14
+Name:	l-0005.l-msedge.net
+Address: 2620:1ec:21::14
+
